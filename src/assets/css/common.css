@@ -1,0 +1,28 @@
+/*高德地图去除下标LOGO*/
+.amap-logo {
+  display: none !important;
+}
+.amap-copyright {
+  opacity: 0;
+}
+
+.el-popper[x-placement^="bottom"] .popper__arrow {
+  display: none;
+}
+
+/* .el-select-dropdown {
+  border: 1px solid rgba(0, 239, 230, 0.5);
+  border-radius: 4px;
+  background-color: rgba(1, 55, 134, 1);
+}
+
+.el-select-dropdown__item,
+.el-select-dropdown__item.selected {
+  color: rgba(0, 239, 230, 1);
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  color: rgba(0, 239, 230, 1);
+  background-color: rgba(0, 239, 230, 0.1);
+} */

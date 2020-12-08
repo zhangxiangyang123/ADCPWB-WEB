@@ -1,0 +1,62 @@
+div.v-selectpage div.sp-input-container div.sp-base {
+  height: 32px;
+}
+div.v-selectpage div.sp-input-container span.sp-placeholder {
+  color: #c0c4cc;
+}
+div.v-dropdown-caller.v-dropdown-caller--full-width {
+  display: inherit;
+  width: 193px;
+}
+.el-select__tags {
+  flex-wrap: inherit;
+  overflow: hidden;
+}
+/* --------end---------- */
+.el-form--inline .el-form-item__content {
+  vertical-align: middle;
+}
+div.v-selectpage div.sp-input-container div.sp-base {
+  height: 32px;
+}
+div.sp-result-area {
+  min-width: auto;
+}
+.sp-icon-close:before {
+  content: "";
+}
+.sp-caret:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  margin-top: -8px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  border-top: 6px solid #ffffff;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  transition: transform 0.2s ease;
+}
+div.v-selectpage div.sp-input-container div.sp-button span.sp-caret {
+  border-top: 7px solid #c0c4cc;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+div.sp-header > h3 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+  width: 140px;
+  top: 6px;
+}
+div.sp-header button.sp-clear-all-btn {
+  right: 10px;
+}
+div.v-dropdown-container.v-dropdown-no-border {
+  width: 183.5px;
+}
